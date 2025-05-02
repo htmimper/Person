@@ -25,10 +25,21 @@ public class Test {
 		 hitomi.age=24;
 		 hanako.phoneNumber="090-8888-1234";
 		 hitomi.address="福岡県福岡市博多区南浜町4丁目9-21 メゾン博多B棟205号室";
-		
+		 
+		 Robot aibo = new Robot();
+		 aibo.name = "アイボ";
+		 Robot asimo = new Robot();
+		 asimo.name = "アシモ";
+		 Robot pepper = new Robot();
+		 pepper.name = "ペッパー";
 				 
 		 System.out.println(taro.name);
 		 System.out.println(taro.age);
+		 System.out.println(taro.name);
+		 System.out.println(taro.age);
+		 taro.talk();
+		 taro.walk();
+		 taro.run();//（演習⑥）
 		 System.out.println(taro.address);
 		 System.out.println(taro.phoneNumber);
 		 
@@ -44,6 +55,20 @@ public class Test {
 		 
 		 System.out.println(hitomi.name);
 		 System.out.println(hitomi.age);//（演習④） phoneNumber,adressのプログラミング、表示
+		 
+		 aibo.talk();
+		 aibo.walk();
+		 aibo.run();
+		 
+		 asimo.talk();
+		 asimo.walk();
+		 asimo.run();
+
+		 pepper.talk();
+		 pepper.walk();
+		 pepper.run();//（演習⑧）
+
+		 
 		 
 	}
 
